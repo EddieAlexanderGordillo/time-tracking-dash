@@ -11,7 +11,8 @@
     --veryDarkBlue: hsl(226, 43%, 10%);
     --darkBlue: hsl(235, 46%, 20%);
     --desaturatedBlue: hsl(235, 45%, 61%);
-    --paleBlue: hsl(236, 100%, 87%)
+    --paleBlue: hsl(236, 100%, 87%);
+    --primaryBorderRadius: 10px;
 }
 
 * {
@@ -24,5 +25,62 @@ html {
     font-size: 62.5%;
     font-family: 'Rubik',
         sans-serif;
+}
+
+.dash-board {
+    width: 100%;
+    height: 100vh;
     background-color: var(--veryDarkBlue);
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.report__time-frame {
+    height: 230px;
+    margin: 100px 30px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--darkBlue);
+    border-radius: var(--primaryBorderRadius);
+
+}
+
+.report__user {
+    width: 100%;
+    height: 160px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: var(--primaryBorderRadius);
+
+}
+
+.report__avatar-user {
+    border: 5px solid var(--paleBlue);
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+.report__text {
+    font-size: 1.6rem;
+    color: var(--paleBlue);
+}
+
+.report__name-user {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--paleBlue);
+}
+
+.time-frame {
+    font-size: 2rem;
+    color: var(--desaturatedBlue);
+}
+
+.time-frame:hover {
+    color: var(--paleBlue);
 }
