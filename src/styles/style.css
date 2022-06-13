@@ -29,11 +29,12 @@ html {
 
 .dash-board {
     width: 100%;
-    height: 100vh;
+    height: 100;
     background-color: var(--veryDarkBlue);
     display: grid;
     grid-template-columns: 1fr;
-
+    grid-template-rows: min-content;
+    gap: 20px;
 }
 
 .report__time-frame {
@@ -83,4 +84,69 @@ html {
 
 .time-frame:hover {
     color: var(--paleBlue);
+}
+
+.card__time-frame {
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 20px;
+    margin: 0 30px;
+}
+
+.card {
+    height: 100%;
+    position: relative;
+}
+
+.card__logo {
+    height: 30%;
+    position: relative;
+    border-top-left-radius: var(--primaryBorderRadius);
+    border-top-right-radius: var(--primaryBorderRadius);
+    background-color: var(--softOrangeSelfCare);
+    overflow: hidden;
+}
+
+.card__logo img {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    width: 90px;
+}
+
+.card__info {
+    position: relative;
+    top: -10px;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 80px 30px;
+    color: var(--paleBlue);
+    background-color: var(--darkBlue);
+    border-radius: var(--primaryBorderRadius);
+}
+
+
+.card__title {
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.card__ellipsis-icon {
+    text-align: end;
+}
+
+.card__time {
+    font-size: 3rem;
+}
+
+.card__last-time {
+    font-size: 1.6rem;
+    color: var(--desaturatedBlue);
+    text-align: end;
 }
