@@ -1,0 +1,79 @@
+@media (min-width: 900px) {
+    .dash-board {
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+        gap: 0;
+        padding: 180px 120px;
+    }
+
+    .report__time-frame {
+        margin: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .report__user {
+        height: 65%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .container__avatar {
+        padding: 20px 0 30px 15px;
+    }
+
+    .report__text {
+        font-size: 1.8rem;
+        padding-top: 5px;
+
+    }
+
+    .report__name-user {
+        font-size: 3rem;
+        padding: 10px 0 20px 0;
+    }
+
+    .time-frame {
+        padding: 20px 0 0 20px;
+    }
+
+
+    .card__time-frame {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .card__info {
+
+        grid-template-rows: 1fr 1fr auto;
+        height: 74%;
+        padding: 30px 20px 80px 20px;
+    }
+
+    .card__title {
+        padding-bottom: 20px;
+        padding-left: 10px;
+
+    }
+
+    .card__ellipsis-icon {
+        padding-bottom: 20px;
+    }
+
+    .card__time {
+        font-size: 3.6rem;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .card__last-time {
+        padding-left: 10px;
+        text-align: left;
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+}
