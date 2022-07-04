@@ -1,101 +1,131 @@
 [
   {
+    "backgroundColor": "hsl(16, 98%, 68%)",
+    "icon": "../src/assets/images/icon-work.svg",
     "title": "Work",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 5,
         "previous": 7
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 32,
         "previous": 36
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 103,
         "previous": 128
       }
     }
   },
   {
+    "backgroundColor": "hsl(195, 74%, 62%)",
+    "icon": "../src/assets/images/icon-play.svg",
     "title": "Play",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 1,
         "previous": 2
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 10,
         "previous": 8
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 23,
         "previous": 29
       }
     }
   },
   {
+    "backgroundColor": "hsl(348, 100%, 68%)",
+    "icon": "../src/assets/images/icon-study.svg",
     "title": "Study",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 0,
         "previous": 1
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 4,
         "previous": 7
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 13,
         "previous": 19
       }
     }
   },
   {
+    "backgroundColor": "hsl(145, 58%, 55%)",
+    "icon": "../src/assets/images/icon-exercise.svg",
     "title": "Exercise",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 1,
         "previous": 1
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 4,
         "previous": 5
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 11,
         "previous": 18
       }
     }
   },
   {
+    "backgroundColor": "hsl(264, 64%, 52%)",
+    "icon": "../src/assets/images/icon-social.svg",
     "title": "Social",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 1,
         "previous": 3
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 5,
         "previous": 10
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 21,
         "previous": 23
       }
     }
   },
   {
+    "backgroundColor": "hsl(43, 84%, 65%)",
+    "icon": "../src/assets/images/icon-self-care.svg",
     "title": "Self Care",
     "timeframes": {
       "daily": {
+        "textPrevious": "Yesterday",
         "current": 0,
         "previous": 1
       },
       "weekly": {
+        "textPrevious": "Last Week",
         "current": 2,
         "previous": 2
       },
       "monthly": {
+        "textPrevious": "Last Month",
         "current": 7,
         "previous": 11
       }
