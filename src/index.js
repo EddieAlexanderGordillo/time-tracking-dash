@@ -13,7 +13,7 @@ const initApp = async () => {
   renderCards(cardsInfo);
 };
 const getCardsInfo = async () => {
-  const response = await fetch('../data.json');
+  const response = await fetch('./data.json');
   return response.json();
 };
 
