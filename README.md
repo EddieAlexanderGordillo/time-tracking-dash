@@ -29,7 +29,7 @@ Users can:
 
 ### Links
 
-- Solution URL: [Add solution URL here] (https://github.com/EddieAlexanderGordillo/time-tracking-dash)
+- Solution URL: [Add solution URL here] (https://eddiealexandergordillo.github.io/time-tracking-dash/)
 
 ## my process
 
