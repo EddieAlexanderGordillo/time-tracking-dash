@@ -42,7 +42,7 @@ const renderCard = (cardData, frecuency) => {
   cardEllipsis.className = 'card__ellipsis-icon';
 
   const iconEllipsis = document.createElement('img');
-  iconEllipsis.src = 'src/assets/images/icon-ellipsis.svg';
+  iconEllipsis.src = '/src/assets/images/icon-ellipsis.svg';
   cardEllipsis.appendChild(iconEllipsis);
 
   const cardTime = document.createElement('p');
