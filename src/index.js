@@ -69,7 +69,7 @@ const createcard = (dataCard, frecuency) => {
           <div class="card__info">
             <p class="card__title">${dataCard.title}</p>
             <div class="card__ellipsis-icon">
-              <img src="/src/assets/images/icon-ellipsis.svg" alt="" />
+              <img src="./src/assets/images/icon-ellipsis.svg" alt="" />
             </div>
             <p class="card__time">${dataCard.timeframes[frecuency].current}hrs</p>
             <p class="card__last-time">${dataCard.timeframes[frecuency].textPrevious} - ${dataCard.timeframes[frecuency].previous}hrs</p>
